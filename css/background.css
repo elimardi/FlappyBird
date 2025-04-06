@@ -1,0 +1,46 @@
+/* Sfondo del gioco */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #4dc0ff 0%, #a1e6ff 100%);
+    z-index: 0;
+}
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/background/clouds.png');
+    background-repeat: repeat-x;
+    background-position: 0 20%;
+    z-index: 1;
+    animation: cloudMove 30s linear infinite;
+}
+
+.city {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('../assets/images/background/city.png');
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    z-index: 2;
+    animation: cityMove 15s linear infinite;
+}
+
+@keyframes cloudMove {
+    from { background-position: 0 20%; }
+    to { background-position: -1000px 20%; }
+}
+
+@keyframes cityMove {
+    from { background-position: 0 bottom; }
+    to { background-position: -500px bottom; }
+}

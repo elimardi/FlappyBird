@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it" manifest="manifest.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Flappy Bird">
+    <link rel="apple-touch-icon" href="assets/images/bird/bird1.svg">
+    <title>Flappy Bird Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game-container">
+            <!-- Elementi di sfondo -->
+            <div class="background"></div>
+            <div class="clouds"></div>
+            <div class="city"></div>
+            
+            <!-- Canvas del gioco -->
+            <canvas id="game-canvas"></canvas>
+            
+            <!-- Schermate di interfaccia -->
+            <div id="start-screen" class="screen">
+                <h1>Flappy Bird Clone</h1>
+                <p>Tocca per iniziare</p>
+                <img src="assets/images/ui/button.svg" alt="Gioca" id="play-button" class="ui-button">
+            </div>
+            
+            <div id="game-over-screen" class="screen hidden">
+                <h2>Game Over</h2>
+                <p>Punteggio: <span id="final-score">0</span></p>
+                <p class="best-score">Miglior punteggio: <span id="best-score">0</span></p>
+                <img src="assets/images/ui/button.svg" alt="Riprova" id="restart-button" class="ui-button">
+            </div>
+            
+            <!-- Display del punteggio -->
+            <div id="score-display">0</div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Manifest per il caching offline
+CACHE MANIFEST
+# v1.0.0
+
+CACHE:
+index.html
+css/style.css
+css/background.css
+js/game.js
+assets/images/bird/bird1.svg
+assets/images/bird/bird2.svg
+assets/images/bird/bird3.svg
+assets/images/pipes/pipe-top.svg
+assets/images/pipes/pipe-bottom.svg
+assets/images/background/ground.svg
+assets/images/background/clouds.svg
+assets/images/background/city.svg
+assets/images/ui/button.svg
+assets/images/ui/game-over.svg
+
+NETWORK:
+*

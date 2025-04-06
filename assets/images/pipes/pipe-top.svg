@@ -1,0 +1,9 @@
+<svg width="52" height="320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tubo superiore -->
+  <g id="top-pipe">
+    <rect x="0" y="0" width="52" height="300" fill="#74BF2E" />
+    <rect x="-5" y="300" width="62" height="20" fill="#74BF2E" />
+    <rect x="0" y="300" width="52" height="2" fill="#4C8A1C" />
+    <rect x="-5" y="318" width="62" height="2" fill="#4C8A1C" />
+  </g>
+</svg>

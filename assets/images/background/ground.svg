@@ -1,0 +1,11 @@
+<svg width="320" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terreno -->
+  <g id="ground">
+    <rect x="0" y="0" width="320" height="80" fill="#ded895" />
+    <rect x="0" y="0" width="320" height="5" fill="#c9b464" />
+    <rect x="0" y="15" width="320" height="2" fill="#c9b464" />
+    <rect x="0" y="35" width="320" height="3" fill="#c9b464" />
+    <rect x="0" y="55" width="320" height="2" fill="#c9b464" />
+    <rect x="0" y="75" width="320" height="5" fill="#c9b464" />
+  </g>
+</svg>

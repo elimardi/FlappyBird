@@ -1,0 +1,19 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Città sullo sfondo -->
+  <g id="city">
+    <rect x="10" y="50" width="20" height="50" fill="#8a8a8a" />
+    <rect x="10" y="40" width="20" height="5" fill="#6a6a6a" />
+    
+    <rect x="40" y="30" width="30" height="70" fill="#7a7a7a" />
+    <rect x="40" y="25" width="30" height="5" fill="#5a5a5a" />
+    
+    <rect x="80" y="60" width="25" height="40" fill="#8a8a8a" />
+    <rect x="80" y="55" width="25" height="5" fill="#6a6a6a" />
+    
+    <rect x="115" y="40" width="35" height="60" fill="#7a7a7a" />
+    <rect x="115" y="35" width="35" height="5" fill="#5a5a5a" />
+    
+    <rect x="160" y="50" width="20" height="50" fill="#8a8a8a" />
+    <rect x="160" y="45" width="20" height="5" fill="#6a6a6a" />
+  </g>
+</svg>
